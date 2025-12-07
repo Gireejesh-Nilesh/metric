@@ -18,5 +18,6 @@ function randomText(){
 
 p.addEventListener('mouseenter', () => {
   iteration = 0;
-  interval = setInterval(randomText, 25);
+  interval = setInterval(randomText, 30);
+  // clearInterval(interval); 
 });
