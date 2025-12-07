@@ -9,7 +9,7 @@ function randomText(){
     return characters.split("")[Math.floor(Math.random()*52)];
   }).join("");
   p.innerHTML = str;
-  iteration += 0.3;
+  iteration += 0.2;
 
   if (iteration >= text.length) {
     clearInterval(interval);  
